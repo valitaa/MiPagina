@@ -96,18 +96,30 @@
 }	
 
 .caja{
-	background-image: url(../img/aa050725f5b307b55787c651abeca8ee.jpg);
+	background-color: #008080;
 	background-size: cover;
 	margin: 3%;
 	width: 70%;
-	padding: 1%;
+	border-radius: 70px;
 	margin-bottom: 10px;
 }
 
 .hi{
-	color: black;
+	color: white;
 	text-align: center;
 	font-family: lobster;
+	text-shadow:2px 2px 3px #000000;
+}
+
+.titulo{
+	color:#158b7d; 
+	text-align: center;
+	font-family: lobster;
+}
+
+.publicado{
+	font-size: 10px;
+	text-align: right;
 }
 
 .caja2{
@@ -116,8 +128,12 @@
 	margin: 3%;
 	width: 33%;
 	text-align: center;
-	font-size: 19px;
+	font-size: 20px;
 	margin-bottom: 10px;
+	margin: 0 auto;
+	padding: 1%;
+	margin-bottom: 10%;
+	text-shadow:5px 5px 6px #000000;
 }
 
 .cajagrande{
@@ -129,6 +145,16 @@
 	border-top: 1px solid gray;
 	max-width: 100%;
 	padding: 10px;
+	margin-top: 5%;
+}
+
+.agenda{
+	background-color: #999999;
+	margin-top: 10%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	color: white;
+	text-shadow:5px 5px 6px #000000;
 }
 
 .cajaa{
@@ -146,7 +172,7 @@
 	background-image: url(../img/Calvin-Harris-@-Hakkasan-Photo-by-Rukes-64h1ex0whqa36wchvgftah32z8t1nsszulgxv5f3pa6.jpg);
 	background-size: cover;
 	color: transparent;
-	margin: 4%;
+	margin: 5%;
 }
 
 .eventos:hover{
@@ -160,9 +186,9 @@
 
 .eventos2{
 	background-size: cover;
-	margin: 4%;
+	margin: 5%;
 	color: transparent;
-	background-image: url(../img/tumblr_static_axgkdzxpj14ck48oggsgkkgcs.jpg);
+	background-image: url(../img/tumblr_inline_n68zfnFpS11rvzv4c.png);
 }
 
 .eventos2:hover{
@@ -181,6 +207,11 @@ li{
 	list-style: none;
 }
 
+.send{
+	max-width: 100%;
+	margin-top: 8%;
+}
+
 .apretar {
 	color:#158b7d;
 	font-size: lobster;
@@ -190,6 +221,23 @@ li{
 .apretar:hover{
 	color: transparent;
 	text-decoration: none;
+}
+
+.numeros{
+	margin-left: 35%;
+}
+
+.final{
+	background-color: #008080;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.fin{
+	color: white;
+	font-family: lobster;
+	font-family: 10px;
+	text-align: center;
 }
 
 
