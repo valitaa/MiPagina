@@ -176,11 +176,21 @@ iframe{
 	max-width: 100%;
 }
 
-.opinion{
-	max-width: 100%;
 
+li{
+	list-style: none;
 }
 
+.apretar {
+	color:#158b7d;
+	font-size: lobster;
+	font-family: 15px;
+}
+
+.apretar:hover{
+	color: transparent;
+	text-decoration: none;
+}
 
 
 
