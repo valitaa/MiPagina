@@ -93,29 +93,30 @@
 
 .image{
 	max-width: 100%;
-}
+}	
 
 .caja{
-	background-color:#008080 ;
+	background-image: url(../img/aa050725f5b307b55787c651abeca8ee.jpg);
+	background-size: cover;
 	margin: 3%;
 	width: 70%;
-	border-radius: 17px;
-	font-family: cursive;
+	padding: 1%;
 	margin-bottom: 10px;
 }
 
 .hi{
-	color: white;
+	color: black;
 	text-align: center;
+	font-family: lobster;
 }
 
 .caja2{
-	background-color:#008080 ;
+	background-image: url(../img/aa050725f5b307b55787c651abeca8ee.jpg);
+	background-size: cover;
 	margin: 3%;
-	width: 30%;
+	width: 33%;
 	text-align: center;
-	font-size: 17px;
-	font-family: cursive;
+	font-size: 19px;
 	margin-bottom: 10px;
 }
 
@@ -133,12 +134,42 @@
 .cajaa{
 	background-color:#008080 ;
 	margin: 3%;
-	width: 50%;
+	max-width: 100%;
 	text-align: center;
 	font-size: 17px;
-	border-radius: 17px 17px 0px 17px;
-	font-family: cursive;
+	border-radius: 20px 20px 0px 20px;
+	font-family: 'Poiret One', cursive;
 	margin-bottom: 10px;
+}
+
+.eventos {
+	background-image: url(../img/Calvin-Harris-@-Hakkasan-Photo-by-Rukes-64h1ex0whqa36wchvgftah32z8t1nsszulgxv5f3pa6.jpg);
+	background-size: cover;
+	color: transparent;
+	margin: 4%;
+}
+
+.eventos:hover{
+	color: white;
+	background-color: #158b7d;
+	text-align: center;
+	text-shadow: 4px 4px 3px black;
+	height: 100px;
+
+}
+
+.eventos2{
+	background-size: cover;
+	margin: 4%;
+	color: transparent;
+	background-image: url(../img/tumblr_static_axgkdzxpj14ck48oggsgkkgcs.jpg);
+}
+
+.eventos2:hover{
+	color: white;
+	text-align: center;
+	height: 100px;
+	text-shadow: 4px 4px 3px black;
 }
 
 iframe{
